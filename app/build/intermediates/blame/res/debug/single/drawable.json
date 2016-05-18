@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnc_normal.9.png",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\drawable\\btnc_normal.9.png"
+    },
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnc_disabled.9.png",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\drawable\\btnc_disabled.9.png"
+    },
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnc_focused_disabled.9.png",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\drawable\\btnc_focused_disabled.9.png"
+    },
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnc.xml",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\drawable\\btnc.xml"
+    },
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnc_focused.9.png",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\drawable\\btnc_focused.9.png"
+    },
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnc_pressed.9.png",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\drawable\\btnc_pressed.9.png"
+    }
+]

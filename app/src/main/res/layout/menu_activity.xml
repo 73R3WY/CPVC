@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/border" >
+
+    <ImageView
+        android:layout_width="360sp"
+        android:layout_height="180sp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo" >
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="ifContentScrolls" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_add"
+                style="@style/btn"
+                android:layout_width="240sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/add" />
+
+            <Button
+                android:id="@+id/btn_records"
+                style="@style/btn"
+                android:layout_width="240sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/records" />
+
+            <Button
+                android:id="@+id/btn_settings"
+                style="@style/btn"
+                android:layout_width="240sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/settings" />
+
+            <Button
+                android:id="@+id/btn_about"
+                style="@style/btn"
+                android:layout_width="240sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/about" />
+
+            <Button
+                android:id="@+id/btn_exit"
+                style="@style/btn"
+                android:layout_width="240sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/exit" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

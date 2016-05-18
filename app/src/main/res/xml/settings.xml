@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/orientations"
+        android:entryValues="@array/lorientations"
+        android:key="jeremypacabis.cpvc.SettingsActivity.ORIENTATION"
+        android:summary="Sets the orientation of the application"
+        android:title="Orientation" >
+    </ListPreference>
+
+</PreferenceScreen>

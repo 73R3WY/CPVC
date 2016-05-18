@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\records_list_activity.xml",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\layout\\records_list_activity.xml"
+    },
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_activity.xml",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\layout\\menu_activity.xml"
+    },
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_a_record_activity.xml",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\layout\\view_a_record_activity.xml"
+    },
+    {
+        "merged": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_edit_activity.xml",
+        "source": "D:\\MyAndroidWorld\\AndroidStudio\\CPVC\\app\\src\\main\\res\\layout\\add_edit_activity.xml"
+    }
+]

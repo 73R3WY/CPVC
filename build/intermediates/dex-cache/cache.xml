@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\MyAndroidWorld\AndroidDevelopmentTools\SDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\MyAndroidWorld\AndroidStudio\CPVC\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fbee6dfee70221674e966059dc4a672b04eb7674\classes.dex" />
+    </item>
+    <item
+        jar="D:\MyAndroidWorld\AndroidStudio\CPVC\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0a2065d7d0c9935d8af815d2b359f6db83808063">
+        <dex dex="D:\MyAndroidWorld\AndroidStudio\CPVC\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3a76ada1d0bbe784b777ce6cedd1effbe1215e6e\classes.dex" />
+    </item>
+    <item
+        jar="D:\MyAndroidWorld\AndroidStudio\CPVC\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\MyAndroidWorld\AndroidStudio\CPVC\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_eb99710b83585befec8691884674e57b1dfac343\classes.dex" />
+    </item>
+    <item
+        jar="D:\MyAndroidWorld\AndroidStudio\CPVC\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9ff8313557cf4736992c38aebe29bd3b44923251">
+        <dex dex="D:\MyAndroidWorld\AndroidStudio\CPVC\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_059f3a6f5bbef3c0fb774cd3ec27e5f50e9b9e0f\classes.dex" />
+    </item>
+    <item
+        jar="D:\MyAndroidWorld\AndroidStudio\CPVC\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\MyAndroidWorld\AndroidStudio\CPVC\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_bf0e53fb15944063ca3ca63fad19f3e340afbc12\classes.dex" />
+    </item>
+
+</items>

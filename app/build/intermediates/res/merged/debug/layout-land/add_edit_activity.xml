@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="@dimen/border"
+    android:weightSum="4" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:overScrollMode="ifContentScrolls" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/client" />
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/name" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <EditText
+                    android:id="@+id/etxt_fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/fname"
+                    android:inputType="textPersonName"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/etxt_lname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="@string/lname"
+                    android:inputType="textPersonName"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/address" />
+
+            <EditText
+                android:id="@+id/etxt_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                android:inputType="textPostalAddress"
+                android:singleLine="true" />
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/contact" />
+
+            <EditText
+                android:id="@+id/etxt_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contact"
+                android:inputType="phone"
+                android:singleLine="true" />
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/occupation" />
+
+            <EditText
+                android:id="@+id/etxt_occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/occupation"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <TextView
+                style="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/border"
+                android:text="@string/pet" />
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/etxt_petname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/birthday" />
+
+            <DatePicker
+                android:id="@+id/dp_petbday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/breed" />
+
+            <EditText
+                android:id="@+id/etxt_petbreed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/breed"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="@string/color" />
+
+            <EditText
+                android:id="@+id/etxt_petcolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/color"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <ImageButton
+                android:id="@+id/btn_cancel"
+                style="@style/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@android:string/cancel"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:tint="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_reset"
+                style="@style/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/reset"
+                android:src="@android:drawable/ic_menu_revert"
+                android:tint="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_view_records"
+                style="@style/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@android:string/yes"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:tint="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/btn_save"
+                style="@style/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@android:string/yes"
+                android:src="@android:drawable/ic_menu_save"
+                android:tint="@android:color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_addpic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo_small" />
+
+        <ImageView
+            android:id="@+id/img_animal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@android:drawable/ic_menu_camera" />
+    </LinearLayout>
+
+</LinearLayout>
